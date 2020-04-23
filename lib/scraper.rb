@@ -1,5 +1,6 @@
 require_relative './course.rb'
-
+require 'nokogiri'
+require 'open-uri'
 class Scraper
 
   def get_page
